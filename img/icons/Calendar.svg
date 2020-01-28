@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1796 753 24 25">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: none;
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #fff;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: rgba(0,0,0,0);
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Calendar" transform="translate(843 98)">
+    <line id="Line_6" data-name="Line 6" class="cls-1" y2="17" transform="translate(959.5 662.5)"/>
+    <line id="Line_7" data-name="Line 7" class="cls-1" y2="17" transform="translate(965.5 662.5)"/>
+    <line id="Line_8" data-name="Line 8" class="cls-1" y2="17" transform="translate(971.5 662.5)"/>
+    <line id="Line_9" data-name="Line 9" class="cls-1" x2="23" transform="translate(953.5 667.5)"/>
+    <line id="Line_10" data-name="Line 10" class="cls-1" x2="23" transform="translate(953.5 673.5)"/>
+    <path id="Rectangle_33" data-name="Rectangle 33" class="cls-2" d="M1,0H23a1,1,0,0,1,1,1V3a0,0,0,0,1,0,0H0A0,0,0,0,1,0,3V1A1,1,0,0,1,1,0Z" transform="translate(953 659)"/>
+    <g id="Rectangle_34" data-name="Rectangle 34" class="cls-3" transform="translate(957 655)">
+      <rect class="cls-4" width="4" height="6" rx="1"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="3" height="5" rx="0.5"/>
+    </g>
+    <g id="Rectangle_35" data-name="Rectangle 35" class="cls-3" transform="translate(969 655)">
+      <rect class="cls-4" width="4" height="6" rx="1"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="3" height="5" rx="0.5"/>
+    </g>
+    <g id="Rectangle_32" data-name="Rectangle 32" class="cls-3" transform="translate(953 662)">
+      <path class="cls-4" d="M0,0H24a0,0,0,0,1,0,0V17a1,1,0,0,1-1,1H1a1,1,0,0,1-1-1V0A0,0,0,0,1,0,0Z"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="23" height="17" rx="0.5"/>
+    </g>
+  </g>
+</svg>

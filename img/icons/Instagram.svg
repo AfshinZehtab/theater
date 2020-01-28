@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1610 2935 24.76 24.011">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #fff;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Instagram" transform="translate(843 122)">
+    <g id="Rectangle_36" data-name="Rectangle 36" class="cls-1" transform="translate(767 2813)">
+      <rect class="cls-3" width="24.76" height="24.011" rx="6"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="23.76" height="23.011" rx="5.5"/>
+    </g>
+    <g id="Ellipse_2" data-name="Ellipse 2" class="cls-1" transform="translate(772.942 2818.763)">
+      <ellipse class="cls-3" cx="6.438" cy="6.243" rx="6.438" ry="6.243"/>
+      <ellipse class="cls-4" cx="6.438" cy="6.243" rx="5.938" ry="5.743"/>
+    </g>
+    <g id="Ellipse_3" data-name="Ellipse 3" class="cls-2" transform="translate(784.827 2815.881)">
+      <ellipse class="cls-3" cx="1.486" cy="1.441" rx="1.486" ry="1.441"/>
+      <ellipse class="cls-4" cx="1.486" cy="1.441" rx="0.986" ry="0.941"/>
+    </g>
+  </g>
+</svg>

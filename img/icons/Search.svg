@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1023 760 19.208 18.791">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #fff;
+      }
+
+      .cls-2 {
+        fill: rgba(0,0,0,0);
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Search" transform="translate(-119.552 715.668)">
+    <g id="Ellipse_1" data-name="Ellipse 1" class="cls-1" transform="translate(1142.552 44.332)">
+      <ellipse class="cls-3" cx="6.675" cy="6.675" rx="6.675" ry="6.675"/>
+      <ellipse class="cls-4" cx="6.675" cy="6.675" rx="6.175" ry="6.175"/>
+    </g>
+    <line id="Line_1" data-name="Line 1" class="cls-2" x2="6.675" y2="6.675" transform="translate(1154.024 55.387)"/>
+  </g>
+</svg>
