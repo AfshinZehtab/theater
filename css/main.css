@@ -1,1 +1,568 @@
+#header::before {
+    content: '';
+    background: linear-gradient(45deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#header {
+	background: url('../img/Buehne.jpg') center center no-repeat;
+	background-size: cover;
+	transition: background .5s ease-in-out;
+	height: 100%;	
+	position: relative;
+}
+
+nav {
+	position: relative;
+    margin: 0;
+}
+
+nav .nav_right {
+	max-width: 100px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 30px;
+	padding: 20px 0;
+}
+
+
+nav ul li a {
+	color: #fff;
+	font-size: 110%;
+	font-weight: 300;
+}
+
+nav ul li a:hover {
+	color: #EA2525;
+	text-decoration: none;
+}
+
+.logo {
+	width: 70px;
+	height: 70px;
+}
+
+.ticket svg {
+	width: 45px;
+}
+
+.ticket svg .cls-1 {
+	fill: none;
+	stroke: #fff;
+}
+
+.ticket svg .cls-1, .ticket svg .cls-5 {
+fill: none;
+}
+
+.ticket svg .cls-1, .ticket svg .cls-3 {
+stroke: #fff;
+}
+
+.ticket svg .cls-2 {
+fill: #fff;
+}
+
+.ticket svg .cls-3 {
+fill: rgba(0,0,0,0);
+}
+
+.ticket svg .cls-4 {
+stroke: none;
+}
+
+
+.ticket:hover .cls-1 {
+	stroke: #EA2525;
+}
+
+#animation {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+}
+
+#search_section {
+	position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -80%);
+	width: 70%;
+}
+
+#search_section input[name='search'] {
+	width: 300px;
+	padding: 10px;
+}
+
+
+#search_section input::placeholder {
+	color: #fff;
+}
+
+#search_section .search__border {
+	border-bottom: 2px solid #EA2525;
+	margin-right: 15px;
+	text-align: center;
+}
+
+#search_section .calendar svg {
+	height: 35px;
+}
+
+
+#search_section input,
+#search_section button {
+	height: 50px;
+	color: #fff;
+	font-size: 18px;
+	border: none;
+	background: none;
+	outline: none;
+}
+
+#search_section .calendar__button,
+#search_section .product {
+	max-width: 300px;
+}
+
+#search_section .search__button {
+    max-width: 120px;
+}
+
+#search_section .search__input {
+	text-align: left;
+}
+
+
+
+
+
+/* about */ 
+
+#about {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+#about h3 {
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+#about p {
+	font-size: 18px;
+}
+
+
+
+/* zum festival */
+
+
+
+#zum_festival {
+	background: linear-gradient(45deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/Alte Dame_4.jpg') top left no-repeat;
+	background-size: cover;
+	height: 90vh;
+	background-attachment: fixed;
+	position: relative;
+}
+
+#zum_festival .zum_festival_content {
+	color: #fff;
+	font-size: 18px;
+	position: absolute;
+	left: 10%;
+	top: 50%;
+	max-width: 600px;
+}
+
+.red {
+	color: #EA2525;
+}
+
+.zum_festival_content h5 {
+	margin-bottom: 20px;
+	font-size: 120%;
+}
+
+.main_button {
+	border: 0;
+	border-bottom: 4px solid #EA2525;
+	background: none;
+	outline: none;
+	font-size: 110%;
+	line-height: 2;
+}
+
+.zum_festival__button:hover {
+	background: none;
+	outline: none;
+}
+
+.zum_festival_content .cls-1 {
+	fill: none;
+	stroke: #fff;
+	stroke-width: 2px;
+}
+
+.zum_festival_content svg {
+	width: 10px;
+	margin-left: 5px;
+}
+
+/* premiere */
+
+#premiere {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#slider {
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+}
+
+.arrows {
+	z-index: 9999;
+}
+
+.arrows li {
+	display: inline-block;
+    position: absolute;
+    font-size: 150px;
+    color: #EA2525;
+}
+
+.arrows li a {
+	text-decoration: none;
+	color: #EA2525;
+	font-weight: 300;
+	text-shadow: 0px 0px 15px #000;
+}
+
+.arrows .slider_right {
+	right: 10%;
+	top: 35%;
+}
+
+.arrows .slider_left {
+	top: 35%;
+	left: 10%;
+}
+
+.premiere_content {
+	margin-top: 40px;
+	padding: 0 10%;
+}
+
+.premiere__buttons button svg {
+	width: 9px;
+}
+
+.premiere__buttons button svg .cls-1,
+.premiere__buttons button svg .cls-2 {
+	fill: none;
+	stroke: #000;
+	stroke-width: 2px;							    
+}
+
+.premiere__buttons {
+	position: relative;
+}
+
+.premiere__buttons .main_button {
+	position: absolute;
+	right: 0;
+	font-weight: 600;
+}
+
+.premiere__buttons .tickets {
+
+}
+
+.premiere__buttons .termine {
+	top: 50%;
+}
+
+h4::after {
+	content: '';
+	height: 4px;
+	display: block;
+	background: #EA2525;
+	width: 150px;
+	margin-top: 10px;
+}
+
+h4 {
+	margin-bottom: 30px;
+}
+
+#premiere p {
+	font-size: 18px;
+}
+
+
+/* footer */
+
+
+footer {
+	background: #000000e3;
+	color: #fff;
+	position: relative;
+}
+
+.footer_top {
+	padding-top: 50px;
+}
+
+.footer_top ul {
+	padding:  0;
+}
+
+.footer_top li {
+	margin-right: 15px;
+}
+
+.footer_top .main_button {
+	color: #fff;
+}
+
+.footer_top .social li {
+	display: inline-block;
+}
+
+.social {
+	margin-left: 100px;
+}
+
+.instagram svg {
+	width: 35px;
+}
+
+.twitter svg,
+.youtube svg {
+	width: 40px;
+}
+
+.facebook svg {
+	width: 20px;
+}
+
+
+.facebook .cls-1 {
+	fill: #fff;
+}
+
+.instagram .cls-1, .instagram .cls-4 {
+	fill: #1c1c1c;
+}
+
+.instagram .cls-1, .instagram .cls-2 {
+	stroke: #fff
+}
+
+.instagram .cls-2 {
+	fill: #fff;
+}
+
+.instagram .cls-3 {
+	stroke: #fff;
+}
+
+.twitter .cls-1 {
+	fill: #fff;
+}
+
+.youtube .cls-1, .youtube .cls-2 {
+	fill: #fff;
+}
+
+.youtube .cls-2 {
+	font-size: 10px;
+	font-family: Roboto-Bold, Roboto;
+	font-weight: 700;
+}
+
+.youtube .cls-3 {
+	fill: #000;
+}
+
+
+.red_line {
+    height: 200px;
+    width: 1px;
+    background: #EA2525;
+    position: absolute;
+    left: 50%;
+}
+
+.newsletter input {
+	margin-right: 30px;
+}
+
+.newsletter input[type="email"] {
+	width: 70%;
+	background: none;
+	border: 0;
+	border-bottom: 3px solid #EA2525;
+	outline: none;
+	color: #fff;
+}
+
+
+.newsletter input[type="email"]::placeholder {
+	color: #fff;
+}
+
+
+
+.footer_bottom {
+	margin-top: 120px;
+	text-align: center;
+	background: #4B4B4B;
+	padding: 1%;
+}
+
+
+/* FESTIVAL */
+
+#festival_header {
+	background: url('../img/Zuschauer_1.jpg') center center no-repeat;
+	background-size: cover;
+	height: 70vh;	
+	position: relative;
+}
+
+.festival_title {
+	font-family: 'Playfair Display', serif;
+	font-size: 6.5em;
+	font-weight: 700;
+	color: #fff;
+	text-align: center; 
+	margin-top: 200px;
+	text-shadow: 0px 0px 15px #000;
+}
+
+.festival_about {
+	padding-top: 80px;
+	height: 30vh;
+}
+
+.festival_about p {
+	font-size: 20px;
+}
+
+/* more */
+
+.festival_more_about {
+	background: linear-gradient(45deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/Haewelmann_1.jpg') center center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.festival_more_about .festival_more_about__content {
+	position: absolute;
+	left: 10%;
+	top: 50%;
+	color: #fff;
+	max-width: 600px;
+}
+
+.festival_programs {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.festival_more_about__content h5 {
+	margin-bottom: 20px;
+	font-size: 1.6em;
+}
+
+.kaltgestellt {
+	background: linear-gradient(45deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/Kaltgestellt_1.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.windsor {
+	background: linear-gradient(45deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/Windsor_1.jpg') center center no-repeat;
+	background-size: cover;	
+}
+
+.alten_dame {
+	background: linear-gradient(45deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/Alte Dame_4.jpg') center center no-repeat;
+	background-size: cover;	
+}
+
+.heimliches {
+	background: linear-gradient(45deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/Heimliches_rufen_2.jpg') center center no-repeat;
+	background-size: cover;		
+}
+
+.gemetzels {
+	background: linear-gradient(45deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/Gesang_1.jpg') center center no-repeat;
+	background-size: cover;		
+}
+
+.haewelmann {
+	background: linear-gradient(45deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/Haewelmann_1.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.kaltgestellt,
+.windsor,
+.alten_dame,
+.heimliches,
+.gemetzels,
+.haewelmann {
+	width: 100%;
+	height: 100%;
+	position: relative;	
+    color: #fff;
+    padding: 5%;
+    margin: 30px auto;
+}
+
+.kaltgestellt p,
+.windsor p,
+.alten_dame p,
+.heimliches p,
+.gemetzels p,
+.haewelmann p {
+	margin-top: 50px;
+	font-size: 1.1em;
+}
+
+.kaltgestellt h4,
+.windsor h4,
+.alten_dame h4,
+.heimliches h4,
+.gemetzels h4,
+.haewelmann h4 {
+	font-size: 1.7em;
+}
+
+
+.kaltgestellt h5,
+.windsor h5,
+.alten_dame h5,
+.heimliches h5,
+.gemetzels h5,
+.haewelmann h5 {
+	font-size: 1.2em;
+}
+
+
+.festival_programs__title h4 {
+	font-weight: 700;
+	margin-bottom: 50px;
+}
 
